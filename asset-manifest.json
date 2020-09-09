@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Nerdy_test/static/css/main.fbfcb3f5.chunk.css",
-    "main.js": "/Nerdy_test/static/js/main.f11f6406.chunk.js",
-    "main.js.map": "/Nerdy_test/static/js/main.f11f6406.chunk.js.map",
+    "main.css": "/Nerdy_test/static/css/main.bdd89831.chunk.css",
+    "main.js": "/Nerdy_test/static/js/main.68d4b970.chunk.js",
+    "main.js.map": "/Nerdy_test/static/js/main.68d4b970.chunk.js.map",
     "runtime-main.js": "/Nerdy_test/static/js/runtime-main.f6980b70.js",
     "runtime-main.js.map": "/Nerdy_test/static/js/runtime-main.f6980b70.js.map",
     "static/js/2.f5227df1.chunk.js": "/Nerdy_test/static/js/2.f5227df1.chunk.js",
     "static/js/2.f5227df1.chunk.js.map": "/Nerdy_test/static/js/2.f5227df1.chunk.js.map",
     "index.html": "/Nerdy_test/index.html",
-    "precache-manifest.000ac5f76eeb9d8406666c5627b3e4a1.js": "/Nerdy_test/precache-manifest.000ac5f76eeb9d8406666c5627b3e4a1.js",
+    "precache-manifest.c78d39d91c2fc383a471796834c0e1f1.js": "/Nerdy_test/precache-manifest.c78d39d91c2fc383a471796834c0e1f1.js",
     "service-worker.js": "/Nerdy_test/service-worker.js",
-    "static/css/main.fbfcb3f5.chunk.css.map": "/Nerdy_test/static/css/main.fbfcb3f5.chunk.css.map",
+    "static/css/main.bdd89831.chunk.css.map": "/Nerdy_test/static/css/main.bdd89831.chunk.css.map",
     "static/js/2.f5227df1.chunk.js.LICENSE.txt": "/Nerdy_test/static/js/2.f5227df1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f6980b70.js",
     "static/js/2.f5227df1.chunk.js",
-    "static/css/main.fbfcb3f5.chunk.css",
-    "static/js/main.f11f6406.chunk.js"
+    "static/css/main.bdd89831.chunk.css",
+    "static/js/main.68d4b970.chunk.js"
   ]
 }
