@@ -1,0 +1,94 @@
+.detail-article {
+  margin-top: 35px;
+
+  .card {
+    margin-bottom: 10px;
+
+    .card-info {
+      border-top: 1px solid $body-bg;
+      padding: 15px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      @media screen and (max-width: 990px) {
+        flex-direction: column;
+      }
+
+      .edit-container {
+        display: none;
+        align-items: center;
+        width: 70%;
+
+        &.active {
+          display: flex;
+        }
+
+        @media screen and (max-width: 990px) {
+          width: 100%;
+        }
+
+        @media screen and (max-width: 580px) {
+          flex-direction: column;
+        }
+
+        textarea {
+          outline: none;
+          resize: none;
+          box-sizing: border-box;
+          margin: 0 10px;
+          padding: 6px;
+          min-height: 60px;
+          overflow: hidden;
+        }
+        .form-control {
+          margin: 0 10px;
+
+          @media screen and (max-width: 580px) {
+            margin: 7px;
+          }
+        }
+        .btn {
+          @media screen and (max-width: 580px) {
+            margin: 7px;
+          }
+          max-height: 38px;
+        }
+      }
+
+      .btns-container {
+        display: flex;
+        align-items: center;
+        margin: 0 20px;
+
+        .btn {
+          margin: 7px;
+          max-height: 38px;
+        }
+      }
+
+      p {
+        margin: 0 10px;
+      }
+
+      .date {
+        span {
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+  .similar-card {
+    min-height: 300px;
+
+    .card-info {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        @media screen and (max-width: 990px) {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
