@@ -2,7 +2,7 @@
   "name": "nerdy_test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lieforse.github.io/Nerdy_test/",
+  "homepage": "https://lieforse.github.io/Nerdy_test",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
