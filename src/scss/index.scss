@@ -72,6 +72,14 @@ body {
 
     input {
       width: 50%;
+
+      @media screen and (max-width: 770px) {
+        width: 70%;
+      }
+
+      @media screen and (max-width: 360px) {
+        width: 60%;
+      }
     }
   }
 }
@@ -85,6 +93,11 @@ body {
   &.active {
     display: flex;
   }
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+  }
+
   textarea {
     outline: none;
     resize: none;
@@ -98,10 +111,19 @@ body {
   .form-control {
     max-width: 400px;
     margin: 0 10px;
+
+    @media screen and (max-width: 480px) {
+      margin: 7px 10px;
+    }
   }
 
   .btn {
     margin: 0 10px;
+
+    @media screen and (max-width: 480px) {
+      width: 30%;
+      margin: 7px 10px 0;
+    }
   }
 }
 

@@ -72,6 +72,7 @@ class DetailAnnouncement extends React.Component {
     };
 
     this.props.editAnnouncementAction(form);
+    this.setState({ isActive: "" });
   };
 
   render() {

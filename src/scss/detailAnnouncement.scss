@@ -2,8 +2,11 @@
   margin-top: 35px;
 
   .card {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
+    p {
+      margin: 0;
+    }
     .card-info {
       border-top: 1px solid $body-bg;
       padding: 15px;
@@ -77,16 +80,22 @@
       }
     }
   }
-  .similar-card {
-    min-height: 300px;
 
-    .card-info {
-      display: flex;
-      justify-content: space-between;
+  .col {
+    padding: 15px;
 
-      p {
-        @media screen and (max-width: 990px) {
-          margin-bottom: 15px;
+    .similar-card {
+      min-height: 300px;
+      margin: 0;
+
+      .card-info {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+          @media screen and (max-width: 990px) {
+            margin-bottom: 15px;
+          }
         }
       }
     }
